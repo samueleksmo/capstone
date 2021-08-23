@@ -42,22 +42,6 @@ To run all test:
 The modelscript used is model.py from part 2.
 See saved country specific models under /models
 
-
-### Build the Docker image and run it
-Step one: build the image (from the directory that was created with this notebook)
-
-    ~$ cd docker-tutorial
-    ~$ docker build -t example-ml-app .
-Check that the image is there.
-
-    ~$ docker image ls
-You may notice images that you no longer use. You may delete them with
-
-    ~$ docker image rm IMAGE_ID_OR_NAME
-Run the container
-
-    docker run -p 8080:8080 example-ml-app
-
 ### Monitoring performance
 
 See notebook MonitorPerformance
